@@ -1,0 +1,55 @@
+What are the number of samples and the number of features?
+The number of samples: 10000
+The number of features: 784
+
+
+What is the best number of clusters? 
+Briefly describe the figure you see. Feel free to state your insights about what you see.
+
+so as the true number of label is 10, the best number of clusters shoulde be 10, but the result is not like that.
+
+When the number of clusters is smaller than 10 will combine some similar group of picture together.
+For example, 8 and 5, 9 and 7. The are being classifier as the same group.
+
+When the number of clusters is bigger than 10 will also combine some similar group of picture together and form a new group.
+Beside some clearer picture of 7 and 9 and 4, there are a new group that looks like all of them, like the mean image of them.
+but other than that,the picture is clearer when the number of clusters increases.
+
+And when we look at the score of different cluster we are using, the 12 clusters model had the highest scores.
+It is funny that it has more class than the true label, but get highest scores.
+I think it may because there may be some noise, which make those picture really hard to be classifier.
+For example, the person may have a bad hand writing that mix the number 7 and 9.
+The other reason is there may be different way to write the same number,
+i had found out that 2 weird pictures. One is a vertical number 1, one is a number 1 with sloped.
+It may be the reason why that it has a higher scores, because of the writing style.
+
+#
+Number of clusters is:  8
+The ARI score is:  0.41386168107014004
+The MRI score is:  0.49144328714759955
+The v-measure score is:  0.5207209125787993
+The average silhouette score is:  0.07534354771580466
+#
+Number of clusters is:  9
+The ARI score is:  0.38542389924019865
+The MRI score is:  0.4925010979425826
+The v-measure score is:  0.5080533328693378
+The average silhouette score is:  0.059858374698033325
+#
+Number of clusters is:  10
+The ARI score is:  0.3809993264426149
+The MRI score is:  0.49874544588292474
+The v-measure score is:  0.5013850987802867
+The average silhouette score is:  0.05928588635543679
+#
+Number of clusters is:  11
+The ARI score is:  0.3801154423803731
+The MRI score is:  0.5026612763774834
+The v-measure score is:  0.5123418236559966
+The average silhouette score is:  0.06158480110419541
+#
+Number of clusters is:  12
+The ARI score is:  0.3902299270375285
+The MRI score is:  0.5030398659410332
+The v-measure score is:  0.5222495514133518
+The average silhouette score is:  0.06197991285676092

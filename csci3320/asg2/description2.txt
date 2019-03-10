@@ -1,0 +1,6 @@
+To achieve POV larger than 0.9, how much dimensions should we preserve?
+Number of dimensions: 62
+Values: 0.9001260976046723
+
+When we increasing the number of dimensions, the Pov increase. But the shape of the graph is concave down(increasing).
+Therefore, to save time of computing, it is best to use 62 dimension out of 784 and achieve 0.9 POV.

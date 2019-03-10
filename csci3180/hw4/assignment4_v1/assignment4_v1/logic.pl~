@@ -1,0 +1,30 @@
+/* Insert header here */
+
+/* 1a */
+append([],Y,Y).
+append([H|T],Y,[H|Z]):- append(T,Y,Z).
+
+uint_num(T):- integer(T),T>0.
+
+/* 1b */
+gt(X,Y):- X>Y.
+
+/* 1c */
+sd(X):-uint_num(_),gt(3,_).
+/* Your query */
+sum(X,Y,Z):-Z==X+Y.
+/*product(X,Y,Z):-Z%2==0,sum(.
+product(X,Y,Z):-Z%2==1.*/
+
+/* 1e */
+/* Your query */
+
+/* 1f */
+/* Your query */
+
+/* 2a */
+nth().
+
+/* 2b */
+third().
+

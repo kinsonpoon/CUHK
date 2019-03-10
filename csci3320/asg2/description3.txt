@@ -1,0 +1,9 @@
+What¡¦s the best number of clusters?
+Best number of clusters is:  5
+The corresponding score:
+The ARI score is:  1.0
+The MRI score is:  1.0
+The v-measure score is:  1.0
+The average silhouette score is:  0.7383986498671878
+
+Because the true number of label is 5, and therefore it will have the highest score.
