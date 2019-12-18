@@ -149,7 +149,7 @@ pos=nx.get_node_attributes(G,'pos')
 nx.draw(G,pos,node_size=100,node_color="r",edge_color="r")
 for layer, entities in group.items():
 
-    #s'''
+    #su'''
     if(layer=='NCL'):
         print(layer)
         N=NCL(entities)
